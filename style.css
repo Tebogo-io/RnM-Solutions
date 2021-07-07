@@ -1,0 +1,109 @@
+Body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#Home {
+    text-align: left;
+}
+
+#Home .container-fluid {
+    padding: 3% 15% 7%;
+    background-color: #A2DBFA;
+}
+
+#profile {
+    background-image: linear-gradient("images\building.png");
+}
+
+#service {
+    background-color: #E8F0F2;
+}
+
+#contact {
+    background-color: rgb(68, 105, 103);
+}
+
+#footer {
+    background-color: #053742;
+}
+
+hr {
+    width: 4%;
+    border-color: grey;
+    border-width: 5px;
+    align-self: center;
+}
+
+.heading {
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.des {
+    padding-top: 120px;
+    padding-left: 500px;
+    text-align: left;
+}
+
+
+/*Services*/
+
+.services-title {
+    font-size: 1.5rem;
+}
+
+.services {
+    padding: 4.5%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #8f8f8f;
+    line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+    #Home {
+        text-align: center;
+    }
+}
